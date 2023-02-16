@@ -1,0 +1,4 @@
+a:link {color:navy; text-decoration:none; font-size: 13 pt}
+a:visited {color:navy; text-decoration:none}
+a:active {color:red; text-decoration:none;}
+a:hover {text-decoration:none; color: red;}

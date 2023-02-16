@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Заказ проекта</title>
+</head>
+<body style="background-color:#FFF8DC ;" link="#D2691E" alink="#D2691E" vlink="#D2691E">
+ <h1 style="color: navy;" >Заказ проекта</h1>
+ <p>Вы можете послать письмо на наш электронный адрес</p>
+ <a  href="mailto:lerka.elizarova@bk.ru">Написать письмо </a>
+ <p>Здесь вы можете заполнить форму заказа для покупки проекта<br/>
+Поля со <sup style="color:red">*</sup> обязательны для заполнения
+ </p>
+ <table border="1">
+  <form>
+ 	<tr>
+ 		<td>Текст заказа в произвольной форме:</td>
+ 		<td>
+ 			<textarea name="textzak" rows="10" cols="50" ></textarea>
+ 		</td>
+ 	</tr>
+ 	<tr>
+   	<td>
+   		Фамилия,имя,отчество <sup style="color: red;">*<sup>
+   	</td>
+   	<td>
+   		<input type="text" name="fio">
+   	</td>
+   </tr>
+   <tr>
+   	<td>
+   		Телефон <sup style="color:red;" >*<sup>
+   	</td>
+   	<td>
+   			<input type="text" name="phone">
+   	</td>
+   </tr>
+   <tr>
+   	<td>
+   		E-mail<sup style="color:red;">*<sup>
+   	</td>
+   	<td>
+   			<input type="text" name="email">
+   	</td>
+   </tr>
+   <tr>
+   	<td>
+   		Адрес<sup style="color:red;">*<sup>
+   	</td>
+   	<td>
+   			<input type="text" name="adress">
+   	</td>
+   </tr>
+   <tr>
+ 		<td>
+ 			Выберите категорию
+ 		</td>
+ 	  <td>
+ 	
+ 		<select  name="kategoria"> 
+ 			<option value="townhouse" />Проекты таунтхаусов и блокированных домов
+ 			<option selected value="two_family"/>Проекты домов на две семьи
+ 			<option value="uzkie" />Проекты узких домов
+ 			<option value="banya" />Проекты бань
+ 		</select>
+       </td>
+       <tr>
+       	<td>
+       		Выберите материал:
+       	</td>
+         <td>
+         	<select  name="material"> 
+               <option value="kirpich"/> Проекты кирпичных домов
+                <option value="gazo-peno"/> Проекты домов из газобетона и пенобетона
+                 <option value="brus_brevno"/> Проекты домов из бруса и бревна
+                  <option value="karkas"/> Проекты каркасных домов
+         	</select>        </td>   </tr>
+         <tr>
+         <td>Ваш возраст</td> 
+         <td>
+         	До 18<input type="radio" name="age" value="До 18"></input><br>
+         	18-50<input type="radio" name="age" value="До 18"></input><br>
+         	Старше 50<input type="radio" name="age" value="До 18"></input>
+    
+         </td>
+       </tr>
+ </table>
+ <input type="submit" value="Отправить">
+ <input type="reset" name="Отчистить">
+</form>
+</body>
+</html>
